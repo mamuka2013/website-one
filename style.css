@@ -1,0 +1,36 @@
+
+.box{
+  width:260px;
+  padding:18px;
+  margin:20px 0;
+  border-radius:15px;
+  color:white;
+  font-size:22px;
+  font-weight:bold;
+  position:relative;
+}
+
+
+.box1{ background:#7dd7cc; }
+.box2{ background:#a86b2a; }
+.box3{ background:#45c400; }
+
+
+.badge{
+  position:absolute;
+  background:red;
+  color:white;
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:bold;
+  box-shadow:0 2px 6px rgba(0,0,0,0.3);
+}
+
+
+.b1{ top:-12px; right:-12px; }
+.b2{ top:-12px; left:-12px; }
+.b3{ bottom:-12px; left:90px; }
